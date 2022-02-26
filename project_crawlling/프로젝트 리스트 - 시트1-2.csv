@@ -1,0 +1,40 @@
+check1,check2,check3,name,keyword1,keyword2
+TRUE,FALSE,FALSE,음악추천 사이트,Bootstrap,web example
+TRUE,FALSE,FALSE,유튜브 클론코딩,video play,web example
+TRUE,FALSE,FALSE,Hangman Game,Hangman Game,web game
+TRUE,FALSE,FALSE,Note App,Web Note,
+TRUE,FALSE,FALSE,반응형 회원가입 페이지,CSS,반응형
+TRUE,FALSE,FALSE,환율 계산기,Java Script,Web Exchange Rate
+TRUE,FALSE,FALSE,간단한 할 일 목록,todolist web,css
+TRUE,FALSE,FALSE,simple timer,simple timer,json
+TRUE,FALSE,FALSE,이미지 슬라이드,java Script,DOM
+TRUE,FALSE,FALSE,웹 계산기,web calculator,javascript
+TRUE,FALSE,FALSE,벽돌 깨기 게임,brickout,
+FALSE,TRUE,TRUE,시각 장애인을 위한 음성 인식 기반 이메일 전송,STT(Speech-To-Text),
+FALSE,TRUE,FALSE,내 방의 인테리어를 도와주는 증강현실 앱,Augmented Reality Example,
+FALSE,TRUE,FALSE,스캔하여 PDF 로 변환하는 앱,scan to pdf,
+FALSE,TRUE,FALSE,온라인 스터디그룹 앱,android example,app example
+FALSE,TRUE,FALSE,가상 의류 쇼핑 앱,android example,app example
+FALSE,TRUE,FALSE,최고의 휴가지를 찾아주는 앱,android example,app example
+FALSE,TRUE,FALSE,자동으로 쿠폰 찾아주는 앱,android example,app example
+FALSE,TRUE,FALSE,비슷한 관심사의 사람을 모아주는 앱,android example,app example
+FALSE,TRUE,FALSE,실종 반려동물 찾기 앱,android example,app example
+FALSE,TRUE,FALSE,NFC 활용 어플,android example,NFC Example
+FALSE,TRUE,FALSE,올림픽/월드컵 스포츠 대회 앱,android example,NFC Example
+FALSE,FALSE,TRUE,신경망 처음부터 구성해보기,Neural Network,
+FALSE,FALSE,TRUE,교통 표지판 분류,traffic sign recognition,Neural Network
+FALSE,FALSE,TRUE,유방암 분류,cancer recognition,
+FALSE,FALSE,TRUE,오래된 흑백 이미지 색칠하기,colorization,openCV
+FALSE,FALSE,TRUE,사람의 이미지로 연령 감지,age detection,
+FALSE,FALSE,TRUE,소셜 미디어 심리 분석,psychoanalysis,
+FALSE,FALSE,TRUE,가상 의류 착용,virtual try on,
+FALSE,FALSE,TRUE,이미지 노이즈 제거,remove image noise,
+FALSE,FALSE,TRUE,주가 예측 프로그램,stock predict,
+FALSE,TRUE,TRUE,임산부를 위한 AI 기반 산후 재활운동,pregnant,
+FALSE,TRUE,TRUE,성향에 따른 뉴스 추천 앱,news recommendation,
+FALSE,TRUE,TRUE,NLP 를 사용한 회의록 생성 / 접근 앱,NLP,
+FALSE,FALSE,TRUE,인공지능 챗봇,NLP,chatbot
+TRUE,FALSE,FALSE,인공지능 기반 취향에 맞는 소식 전달 학교/회사 커뮤니티,community,web board example
+FALSE,TRUE,TRUE,음성인식 가전제품 통제 어플,STT(Speech-To-Text),bluetooth example
+FALSE,TRUE,TRUE,구글 API 를 활용한 인공지능 비서 어플 개발,STT(Speech-To-Text),google assistant
+FALSE,FALSE,TRUE,등록 된 인물이외의 대상에게 실시간 모자이크,remove Mosaic,
