@@ -1,0 +1,47 @@
+
+
+.header {
+    
+    height: 60px;
+    text-align: center;
+    font-family: "Noto Serif Display", sans-serif;
+    font-size: xx-large;
+    margin: 20%;
+    margin-bottom: 50px;
+    margin-top: 70px;
+    padding-bottom: 50px;
+    
+    width : 60%;
+    border-bottom: 1px solid #d3d1d1;
+    
+    
+}
+
+.container {
+	display: grid;
+    justify-content: center;
+	grid-template-columns: 70%;
+	grid-template-rows: 150px 150px 150px;
+}
+	
+.item1 {
+    
+    font-family: "Noto Serif Display", sans-serif;
+    
+}
+
+.search_btn {
+    position: relative;
+    
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "Noto Serif Display", sans-serif;
+    
+    text-decoration: 1px solid black;
+    font-weight: 600;
+    transition: 0.25s;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
