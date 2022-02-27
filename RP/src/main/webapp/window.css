@@ -1,10 +1,14 @@
 
 
+@font-face {
+    font-family: "Hubballi-Regular";
+    src: url('/Users/yongcho/Downloads/Hubballi/Hubballi-Regular.ttf') format('truetype');
+}
 .header {
     
     height: 60px;
     text-align: center;
-    font-family: "Noto Serif Display", sans-serif;
+    font-family: "Hubballi-Regular";
     font-size: xx-large;
     margin: 20%;
     margin-bottom: 50px;
@@ -26,7 +30,7 @@
 	
 .item1 {
     
-    font-family: "Noto Serif Display", sans-serif;
+    font-family: "Hubballi-Regular";
     
 }
 
@@ -37,7 +41,7 @@
     display: inline-block;
     padding: 15px 30px;
     border-radius: 15px;
-    font-family: "Noto Serif Display", sans-serif;
+    font-family: "Hubballi-Regular";
     
     text-decoration: 1px solid black;
     font-weight: 600;
@@ -48,7 +52,7 @@
 
 .name{
     text-align: right;
-    font-family: "Noto Serif Display", sans-serif;
+    font-family: "Hubballi-Regular";
     font-size: small;
     margin : 30px;
 }

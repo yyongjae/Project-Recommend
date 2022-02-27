@@ -1,10 +1,14 @@
 
-
+@font-face {
+    font-family: "Hubballi-Regular";
+    src: url('/Users/yongcho/Downloads/Hubballi/Hubballi-Regular.ttf') format('truetype');
+}
 .header {
     
     height: 60px;
     text-align: center;
-    font-family: "Noto Serif Display", sans-serif;
+    font-family: "Hubballi-Regular";
+    
     font-size: xx-large;
     margin: 20%;
     margin-bottom: 50px;
@@ -27,16 +31,21 @@
 .item1 {
     margin-bottom: 20px;
     border-bottom: 1px solid #d3d1d1;
-    font-family: "Noto Serif Display", sans-serif;
+    font-family: "Hubballi-Regulary";
     text-align: center;
 }
 
 .item2{
-    font-family: "Noto Serif Display", sans-serif;
+    font-family: "Hubballi-Regulary";
     font-size: x-large;
     margin-bottom: 40px;
     margin-top: 20px;
     text-align: center;
+}
+
+.item3{
+    text-decoration-line: none;
+    text-emphasis-color: gray;
 }
 .search_btn {
     position: relative;
@@ -44,7 +53,7 @@
     display: inline-block;
     padding: 15px 30px;
     border-radius: 15px;
-    font-family: "Noto Serif Display", sans-serif;
+    font-family:"Hubballi-Regulary";
     
     text-decoration: 1px solid black;
     font-weight: 600;

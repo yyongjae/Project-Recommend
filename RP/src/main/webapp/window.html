@@ -10,7 +10,7 @@
 
 	<link rel="stylesheet" href ="window.css">
  
- 	<script src = ""></script>   
+    <script src = "scrap.js"></script>  
 	
 	<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap&subset=latin-ext" rel="stylesheet">
     <link href = "https://fonts.google.com/noto/specimen/Noto+Serif+Display" rel = "stylesheet" type = 'text/css'>
@@ -32,7 +32,7 @@
             <label><input type='checkbox' name='chk[]' value='a' class='chkselect' onclick='Chk();'> APP</label><br><br>
             <label><input type='checkbox' name='chk[]' value='a' class='chkselect' onclick='Chk();'> WEB</label><br><br>
             <label><input type='checkbox' name='chk[]' value='a' class='chkselect' onclick='Chk();'> AI</label><br><br>
-            <div> <button class="search_btn" type="button" style="float: right;" onClick="location.href='show.html'">
+            <div> <button class="search_btn" type="button" style="float: right;" onClick="location.href='show.html';return getGithubLink()">
                 Search
             </button></div>
         </div>
