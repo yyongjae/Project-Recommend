@@ -20,8 +20,8 @@
 .container {
 	display: grid;
     justify-content: center;
-	grid-template-columns: 70%;
-	grid-template-rows: 150px 150px 150px;
+	grid-template-columns: 300px;
+	grid-template-rows: 150px 150px;
 }
 	
 .item1 {
@@ -31,6 +31,7 @@
 }
 
 .search_btn {
+    align-items: center;
     position: relative;
     
     display: inline-block;
@@ -45,3 +46,9 @@
     color: #000000;
 }
 
+.name{
+    text-align: right;
+    font-family: "Noto Serif Display", sans-serif;
+    font-size: small;
+    margin : 30px;
+}

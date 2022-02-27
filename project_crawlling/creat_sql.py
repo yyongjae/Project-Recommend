@@ -7,7 +7,7 @@ array = data_array.values.tolist()
 print(array[0][1])
 f = open('./sql.txt','w')
 sql_list = []
-
+cnt=0
 for i in array:
     check1="True"
     check2="True"
@@ -24,9 +24,9 @@ for i in array:
         print(type(j))
         
 
-    sql_tmp = "INSERT INTO RP VALUES ("+check1+","+check2+","+check3+","+"\""+i[3]+"\""+","+i[4]+","+str(i[5])+")\n"
+    sql_tmp = "INSERT INTO RP VALUES ("+str(cnt)+","+check1+","+check2+","+check3+","+"\""+i[3]+"\""+","+"\""+i[4]+"\""+","+"\""+str(i[5])+"\""+");\n"
     print(sql_tmp)
     f.write(sql_tmp)
-    
+    cnt=cnt+1    
 f.close()
 

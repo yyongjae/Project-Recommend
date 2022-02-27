@@ -20,16 +20,24 @@
 .container {
 	display: grid;
     justify-content: center;
-	grid-template-columns: 300px;
-	grid-template-rows: 150px 150px;
+	grid-template-columns: 70%;
+	grid-template-rows: 150px 150px 150px;
 }
 	
 .item1 {
-    
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d3d1d1;
     font-family: "Noto Serif Display", sans-serif;
-    
+    text-align: center;
 }
 
+.item2{
+    font-family: "Noto Serif Display", sans-serif;
+    font-size: x-large;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
 .search_btn {
     position: relative;
     
