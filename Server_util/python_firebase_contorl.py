@@ -12,27 +12,29 @@ firebase_admin.initialize_app(cred,{
 
 ref = db.reference('Project_list/') #db 위치 지정, 기본 가장 상단을 가르킴
 
+def upload_csv(file_url): #upload 성향에 따라서 알아서 pandas 메소드 바꿔서 사용하시길 . 
+    data_array = pd.read_csv(url)
 
-data_array = pd.read_csv('/Users/mac/Documents/GitHub/Project-Recommend/project_crawlling/프로젝트 리스트 - 시트1-2.csv')
+    array = data_array.values.tolist()
 
-array = data_array.values.tolist()
+    cnt=0
 
-cnt=0
+    for i in array:
+        i[0]="True"
+        i[1]="True"
+        i[2]="True"
 
-for i in array:
-    i[0]="True"
-    i[1]="True"
-    i[2]="True"
+        if i[0]==False:
+            i[0]="False"
+        if i[1]==False:
+            i[1]="False"
+        if i[2]==False:
+            i[2]="False"
+        if type(i[5])==float:
+            i[5]="none"
+            
+        print(i)
+        ref.update({cnt : i}) #해당 변수가 없으면 생성한다.
+        cnt=cnt+1
 
-    if i[0]==False:
-        i[0]="False"
-    if i[1]==False:
-        i[1]="False"
-    if i[2]==False:
-        i[2]="False"
-    if type(i[5])==float:
-        i[5]="none"
-        
-    print(i)
-    ref.update({cnt : i}) #해당 변수가 없으면 생성한다.
-    cnt=cnt+1
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+	<title>  Recommend Project Subject </title>
+ 
+	<meta charset ="utf-8">
+
+	<link rel="stylesheet" href ="css/show.css">
+ 
+ 	<script src = ""></script>   
+	
+	<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href = "https://fonts.google.com/noto/specimen/Noto+Serif+Display" rel = "stylesheet" type = 'text/css'>
+</head>
+<body>
+   
+    <div class="header">
+        Recommend Project 
+    </div>
+    <div class="container">
+		<div class="row">
+			<table class="table table-triped" style="text-align: center; border: 1ps solid #dddddd">
+				<thead>
+					<tr>
+						<th style="background-color: #eeeeee; text-align: center;"> 제목 </th>
+						<th style="background-color: #eeeeee; text-align: center;"> 키워드1 </th>
+						<th style="background-color: #eeeeee; text-align: center;"> 키워드2 </th>
+					</tr>
+				
+				</tbody>
+			</table>
+		
+		</div>
+	</div>
+    <div class="footer"></div>
+</body>
+</html>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBEvdAKFV-O9wUOC17xK4RcZrjFbJVeLuY",
+    authDomain: "recommend-project-db-hosting.firebaseapp.com",
+    databaseURL: "https://recommend-project-db-hosting-default-rtdb.firebaseio.com",
+    projectId: "recommend-project-db-hosting",
+    storageBucket: "recommend-project-db-hosting.appspot.com",
+    messagingSenderId: "1066255953812",
+    appId: "1:1066255953812:web:c3e042edde9548dfa96981"
+    };
+  firebase.initializeApp(config);
+   
+  var newPostKey = firebase.database().ref().child('posts').push().key;
+ 
+  var postData = {
+    brdno: newPostKey,
+    brdwriter: "홍길동",
+    brdtitle: "게시판 제목",
+    brdmemo: "게시물 내용",
+    brddate: Date.now()
+  };
+ 
+  var updates = {};
+  updates['/board/' + newPostKey] = postData;
+ 
+  firebase.database().ref().update(updates);
+           
+</script>
+
